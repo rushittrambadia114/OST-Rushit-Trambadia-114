@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        .info-resume {
+            font-family:Arial, Helvetica, sans-serif ;
+            border: 1px solid black;
+            padding: 20px;
+            margin: 20px;
+            display: grid;
+            grid-template-columns: .4fr 1fr;
+            column-gap: 40px;
+            background-color: #fff;
+            border-radius: 10px;
+        }
+        .left {
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 11px rgba(33,33,33,.2);
+        }
+        .right {
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 11px rgba(33,33,33,.2);
+        }
+        .card {
+            margin: 15px;
+            float: left;
+            width: 30%;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            transition: 0.3s;
+        }
+        .card:hover {
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        }
+        .container {
+            padding: 2px 16px;
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="info-resume">
+        <div class="left">
+            <div class="left-side">
+                <img src="IMG_5972.PNG" width="100%">
+                <h1>Rushit Trambadia</h1>
+                <p>Email: rushittrambadia@gmail.com</p>
+                <p>Phone: +91 1234567890</p>
+                <p>LinkedIn: linkedin.com/in/rushittrambadia</p>
+                <p>GitHub: github.com/russty713</p>
+                <hr>
+            </div>
+            
+            <div class="left-side">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Programming Languages: C#, C++, Python</li>
+                    <li>Game Engines: Unity, Unreal Engine</li>
+                    <li>Tools: Blender</li>
+                    <li>Technologies: VR/AR, AI, Multiplayer Networking</li>
+                </ul>
+                <hr>
+            </div>
+            
+            <div class="left-side">
+                <h2>Education</h2>
+                <h3>Bachelor of Science in Game Design and Development</h3>
+                <p>Marwadi University, 2017</p>
+                <h3>Diploma in Computer Engineering</h3>
+                <p>Marwadi University, 2014</p>
+                <hr>
+            </div>
+            
+            <div class="left-side">
+                <h2>Certifications</h2>
+                <ul>
+                    <li>Unity Certified Developer</li>
+                    <li>Unreal Engine Certified Instructor</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="right-side" id="summary">
+                <h2>Summary</h2>
+                <p>Skilled Game Developer with over 3 years of experience in developing and designing games. Expert in modern softwares like Unity, Unreal Engine and Blender, with a passion for continuous learning and improvement.</p>
+                <hr>
+            </div>
+        
+            <div class="right-side" id="experience">
+                <h2>Experience</h2>
+                <h3>Game Developer & Designer | Rockstar Games</h3>
+                <p>March 2022 - Present</p>
+                <ul>
+                    <li>Leading the development of GTA6.</li>
+                    <li>Implemented complex AI behaviors and realistic physics simulations.</li>
+                    <li>Optimized game performance, resulting in a 25% increase in frame rate.</li>
+                </ul>
+                <h3>Game Designer Intern | EA Games</h3>
+                <p>July 2021 - February 2022</p>
+                <ul>
+                    <li>Designed and developed multiple indie games using Unity.</li>
+                    <li>Created engaging gameplay mechanics and interactive environments.</li>
+                    <li>Collaborated with artists and designers to ensure cohesive game aesthetics.</li>
+                </ul>
+                <hr>
+            </div>
+
+            <div class="right-side" id="projects">
+                <h2>Projects</h2>
+                <div class="card">
+                    <img src="gta-6-official-logo-2048x2048-13622.png" alt="Avatar" style="width:100%" class="">
+                    <div class="container">
+                      <h4><b>GTA 6</b></h4>
+                      <p>Game Developer</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="9a77db0d3793bb8c4170658776d948c8.jpg" alt="Avatar" style="width:100%">
+                    <div class="container">
+                      <h4><b>GTA 5</b></h4>
+                      <p>Game Developer</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="F0nATxmaYAEWeXP.jpg" alt="Avatar" style="width:100%">
+                    <div class="container">
+                        <h4><b>FC 24</b></h4>
+                        <p>Game Designer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
